@@ -3,14 +3,8 @@
 class InputFormatter():
     def __init__(self, lang = 'PT') -> None:
         self.lang = lang
-        self.sep_preps = None
-        self.connectors = None
-        self.days = None
-        self.months = None
-        self.target_words = None
-        self.numbers = None
-        self.aux_numbers = None
         self.specs_dict = {'sep_preps':None, 'connectors':None, 'days':None, 'months':None, 'target_words':None, 'numbers':None, 'aux_numbers':None}
+        self.default_seps = [',', '.', ';']
     
     def read_lang_specs(self):
         specs_file = f'model/langs/{self.lang}.txt'
@@ -28,6 +22,8 @@ class InputFormatter():
     def print_specs_dict(self):
         for key, value in self.specs_dict.items():
             print(f'Key: {key}\nValue: {value}')
+
+    
 
 if __name__ == "__main__":
     input_formatter = InputFormatter('PT')
