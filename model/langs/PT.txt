@@ -1,0 +1,7 @@
+connectors = de;do;da;dos;das;deste;desta;destes;destas
+sep_preps = em;no;na;nos;nas;neste;nesta;nestes;nestas;nesse;nessa;nesses;nessas
+days = segunda;terça;quarta;quinta;sexta;sábado;domingo;segunda-feira;terça-feira;quarta-feira;quinta-feira;sexta-feira;seg;ter;qua;qui;sex;sab;dom
+months = janeiro;fevereiro;março;abril;maio;junho;julho;agosto;setembro;outubro;novembro;dezembro;jan;fev;mar;abr;mai;jun;jul;ago;set;out;nov;dez
+target_words = hoje;dia;amanhã;ontem;anteontem;semana;mês;ano
+numbers = primeiro;primeira;um;dois;três;quatro;cinco;seis;sete;oito;nove;dez;onze;doze;treze;quatorze;catorze;quinze;dezesseis;dezessete;dezoito;dezenove
+aux_numbers = vinte;trinta
